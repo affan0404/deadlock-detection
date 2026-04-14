@@ -1,14 +1,12 @@
-# Package contents
+# Banker's simulator
 
 | File | Role |
 |------|------|
-| `main.py` | Load JSON, validate, call `banker.solve`, print JSON |
-| `validation.py` | Dimension and value checks |
-| `banker.py` | Must implement `solve(data) -> dict` |
+| `main.py` | CLI, JSON |
+| `validation.py` | Input validation |
+| `banker.py` | `solve()`, need matrix, safety / deadlock |
 
 ## Run
-
-Requires a working `banker.solve` implementation.
 
 ```bash
 python3 main.py path/to/input.json

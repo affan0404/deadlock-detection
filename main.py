@@ -36,7 +36,6 @@ def main() -> None:
         sys.exit(1)
 
     out = solve(data)
-    # Strict JSON to stdout only (no extra logging)
     print(json.dumps(out, separators=(",", ":")))
 
 
