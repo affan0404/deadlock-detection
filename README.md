@@ -28,7 +28,9 @@ Input JSON fields: `processes`, `resources`, `available`, `max`, `allocation` (s
 
 ## AI usage statement
 
-Course policy: describe how AI tools were used. You must understand all submitted code.
+AI tools were used to assist in understanding and implementing the Banker's safety (deadlock detection) algorithm. The tools helped clarify the logic, validate the approach, and guide portions of the implementation.
+
+All code was reviewed, tested, and fully understood by the team. Final implementation decisions, debugging, and validation were performed independently.
 
 ## Tests
 
