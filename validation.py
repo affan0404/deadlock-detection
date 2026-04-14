@@ -1,4 +1,4 @@
-"""Input validation for the Banker's simulator."""
+"""Input validation for Banker's simulator."""
 
 
 def validate_input(data: dict) -> None:

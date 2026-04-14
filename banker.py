@@ -1,5 +1,5 @@
 """
-Banker's need matrix and safety algorithm.
+Banker's need matrix + safety algorithm.
 
 Tie-breaking: when several processes can proceed, pick the smallest process index first.
 Process labels in output: P1 .. Pn (row index i maps to Pi+1).
@@ -44,7 +44,6 @@ def solve(data: dict) -> dict:
 
     while True:
         progressed = False
-        # Try processes in index order 0..n-1; first satisfiable wins this round
         for i in range(n):
             if finish[i]:
                 continue
